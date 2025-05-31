@@ -1,0 +1,12 @@
+#take a number n from the user and calculate the sum of the numbers from 1 to n
+
+# Kullanıcıdan sayı alınır
+n = int(input("Bir sayı girin: "))
+
+# Toplamı hesapla
+toplam = 0
+for i in range(1, n + 1):
+    toplam += i
+
+# Sonucu yazdır
+print("1'den", n, "e kadar olan sayıların toplamı:", toplam)
